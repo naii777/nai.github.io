@@ -1,6 +1,7 @@
 .h1 {
     position: absolute;
-    top: 80px;
+    top: 50%;
+    border: 5px solid #E18728 ;
 }
 
 html {
