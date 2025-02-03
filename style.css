@@ -12,6 +12,7 @@ html {
 
 h1 {
     front-size: 2rem;
+    color: blue;
 }
 img {
     border: 5px solid #E18728;
