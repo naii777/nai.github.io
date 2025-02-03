@@ -1,10 +1,16 @@
 .TEST {
     position: absolute;
     top: 50%;
-    border: 5px solid #E18728 ;
+    border: 5px solid #E18728;
 }
 
 html {
     box-sizing: content-box;
 }
 
+h1 {
+    front-size: 2rem;
+}
+img {
+    border: 5px solid #E18728;
+}
