@@ -1,4 +1,17 @@
 
+
+
+
+
+titel {
+    position: relative;
+    right: 50%;
+    front-size: 2em;
+
+}
+
+
+
 h1 {
     front-size: ;
     color: black;
@@ -10,6 +23,27 @@ img {
     width: 220;
     height: 200;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="container text-center">
@@ -25,3 +59,5 @@ img {
     </div>
   </div>
 </div>
+
+
