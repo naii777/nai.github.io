@@ -1,8 +1,9 @@
 .title {
-    position: absolute;
-    bottom: 80px;
+    position: relative;
+    top: 80px;
 }
 
 html {
     box-sizing: border-box;
 }
+
