@@ -2382,18 +2382,16 @@ ol li {
     text-align: right
 }
 
+.logo img {
+    display: block;
+}
+
 
 .logo {
     display: inline-block;
     position: relative;
     z-index: 10;
 }
-
-.logo img {
-    display: block;
-}
-
-
 
 @media (max-width: 61.99875rem) {
     .logo {
