@@ -1,6 +1,10 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
 titel {
-    
-    front-size: 2em;
+    font-size: 2em;
     text-decoration: underline;
 
 }
@@ -8,9 +12,15 @@ titel {
 
 
 h1 {
+    position: relative;
     text-align: center;
     width: 50%;
     color: black;
+    grid-column: -1;
+    font-size: 3.375rem;
+    margin-bottom: 2.5rem;
+
+
 }
 
 img {
