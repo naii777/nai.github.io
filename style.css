@@ -11,6 +11,13 @@ titel {
 
 }
 
+.main {
+    padding-top: 5.4375rem;
+    width: 100%;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 nav {
