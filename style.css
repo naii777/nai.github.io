@@ -13,7 +13,7 @@ titel {
 
 h1 {  
     position: relative;
-    text-align: left;
+    text-align: center;
     color: black;
     grid-column: -1;
     line-height: 1.4;
