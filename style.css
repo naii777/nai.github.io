@@ -1,11 +1,5 @@
-
-
-
-
-
 titel {
-    position: relative;
-    right: 50%;
+    
     front-size: 2em;
     text-decoration: underline;
 
@@ -14,9 +8,9 @@ titel {
 
 
 h1 {
-    front-size: ;
+    text-align: center;
+    width: 50%;
     color: black;
-    border: 2px black;
 }
 
 img {
@@ -27,7 +21,10 @@ img {
     height: 200px;
 }
 
+body {
+    text-align: left;
 
+}
 
 
 
