@@ -3813,11 +3813,47 @@ html:not(.ie11) .main {
 }
 
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img {
+    width: 260px;
+    aspect-ratio: auto 260/74;
+    height: 74px;
+}
+
+img {
+    overflow-clip-margin: content.box;
+    overflow: clip;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a {
+    background-color: transparent;
+}
+
 .logo {
     display: inline-block;
     position: relative;
     z-index: 10;
 }
+
+.logo img {
+    display: block;
+}
+
+
 
 @media (max-width: 61.99875rem) {
     .logo {
@@ -3829,10 +3865,6 @@ html:not(.ie11) .main {
     .logo {
         max-width: 11.5625rem;
     }
-}
-
-.logo img {
-    display: block;
 }
 
 
@@ -4122,19 +4154,7 @@ p {
     color: black
 }
 
-a {
-    color: black;
-    text-decoration: underline;
-}
 
-a {
-    background-color: transparent;
-}
-
- img {
-    width: auto;
-    height: auto;
- }
 
 body {
     text-align: left;
