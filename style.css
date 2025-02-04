@@ -12,6 +12,16 @@ html {
     -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 
+html:not(.ie11) body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+html:not(.ie11) .main {
+    flex-grow: 1
+}
+
 
 .grid {
     max-width: 100%;
