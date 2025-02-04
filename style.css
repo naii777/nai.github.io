@@ -22,28 +22,6 @@ html:not(.ie11) .main {
     flex-grow: 1
 }
 
-.logo {
-    display: inline-block;
-    position: relative;
-    z-index: 10;
-}
-
-@media (max-width: 61.99875rem) {
-    .logo {
-        max-width: 14.625rem;
-    }
-}
-
-@media (max-width: 22.8125rem) {
-    .logo {
-        max-width: 11.5625rem;
-    }
-}
-
-.logo img {
-    display: block;
-}
-
 
 .main-nav {
     display: none;
@@ -3833,6 +3811,30 @@ html:not(.ie11) .main {
         height: 4.3125rem;
     }
 }
+
+
+.logo {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 61.99875rem) {
+    .logo {
+        max-width: 14.625rem;
+    }
+}
+
+@media (max-width: 22.8125rem) {
+    .logo {
+        max-width: 11.5625rem;
+    }
+}
+
+.logo img {
+    display: block;
+}
+
 
 .header .header_logo {
     display: inline-block;
