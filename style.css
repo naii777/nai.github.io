@@ -12,13 +12,6 @@ html {
     -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 
-titel {
-    font-size: 2em;
-    text-decoration: underline;
-
-}
-
-
 
 .grid {
     max-width: 100%;
@@ -1650,6 +1643,22 @@ titel {
     }
 }
 
+.container-fluid {
+    display: block;
+    width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .header {
@@ -1888,27 +1897,88 @@ nav {
 }
 
 
-h1 {  
-    position: relative;
-    text-align: center;
-    color: black;
-    grid-column: -1;
+h1,.h1 {
+    font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0;
-    font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
-    font-size: 3.375rem;
-    font-weight:400px;
     color: #003F57;
-    display: block;
     margin-top: 0;
-    margin-bottom: 2.5rem;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    
+    margin-bottom: 2.5rem
+}
 
+@media (min-width: 48rem) {
+    h1,.h1 {
+        font-size:2.375rem;
+    }
+}
 
+@media (min-width: 62rem) {
+    h1,.h1 {
+        font-size:3.375rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+h2,.h2,.teaser__header,.teaserbox_extra__header,.tile-submenu__item>a {
+    font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 1.25rem
+}
+
+@media (min-width: 48rem) {
+    h2,.h2,.teaser__header,.teaserbox_extra__header,.tile-submenu__item>a {
+        font-size:1.75rem;
+        margin-bottom: 2.5rem
+    }
+}
+
+h3,.search-list-item .search-list-item__title,.h3,.person__title {
+    font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
+    font-size: 1.1875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #003F57;
+    margin-top: 0;
+    margin-bottom: 0.375rem
+}
+
+@media (min-width: 48rem) {
+    h3,.search-list-item .search-list-item__title,.h3,.person__title {
+        font-size:1.25rem;
+        margin-bottom: 1rem
+    }
+}
+
+h4,.h4 {
+    font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0.625rem
+}
+
+@media (min-width: 48rem) {
+    h4,.h4 {
+        font-size:1.125rem
+    }
+}
+
+p {
+    font-size: inherit;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    color: black
 }
 
  img {
