@@ -4070,6 +4070,14 @@ nav {
 }
 
 
+body {
+    font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
+    color: black;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
 h1,.h1 {
     font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
     font-size: 1.5rem;
@@ -4156,10 +4164,6 @@ p {
 
 
 
-body {
-    text-align: left;
-
-}
 
 
 
