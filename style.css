@@ -14,17 +14,17 @@ titel {
 h1 {  
     position: relative;
     text-align: left;
-    width: 50%;
     color: black;
     grid-column: -1;
     line-height: 1.4;
     letter-spacing: 0;
+    font-family: "Open Sans", Helvetica, Verdana, Arial, sans-serif;
     font-size: 3.375rem;
     font-weight:400px;
-    margin-top: 0;
-    margin-bottom: 2.5rem;
     color: #003F57;
     display: block;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
