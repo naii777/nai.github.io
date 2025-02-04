@@ -4122,6 +4122,15 @@ p {
     color: black
 }
 
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a {
+    background-color: transparent;
+}
+
  img {
     width: 220px;
     height: 200px;
