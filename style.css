@@ -3820,26 +3820,6 @@ body {
 }
 
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
-img {
-    width: 260px;
-    aspect-ratio: auto 260/74;
-    height: 74px;
-}
-
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
 
 a {
     color: black;
