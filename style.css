@@ -2420,19 +2420,6 @@ ol li {
 }
 
 
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
-
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
-
-
 .breadcrumb {
     display: block;
     margin: 0;
