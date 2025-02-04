@@ -16,26 +16,32 @@ titel {
 h1 {
     front-size: ;
     color: black;
-    border: 5px black;
+    border: 2px black;
 }
 
 img {
-    border: 5px black;
-    width: 220;
-    height: 200;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 220px;
+    height: 200px;
 }
 
 
 img {
-    border: 5px black;
-    width: 220;
-    height: 200;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 220px;
+    height: 200px;
 }
 
 img {
-    border: 5px black;
-    width: 220;
-    height: 200;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 220px;
+    height: 200px;
 }
 
 
