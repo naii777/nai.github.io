@@ -23,6 +23,13 @@ html:not(.ie11) .main {
 }
 
 
+body {
+    font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
+    color: black;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 .main-nav {
     display: none;
 }
@@ -4067,14 +4074,6 @@ a {
 nav {
     unicode-bidi: isolate;
     display: block;
-}
-
-
-body {
-    font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
-    color: black;
-    font-weight: 400;
-    line-height: 1.5;
 }
 
 
