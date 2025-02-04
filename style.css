@@ -12,6 +12,10 @@ titel {
 }
 
 
+
+
+
+
 .header {
     position: fixed;
     display: block;
@@ -22,6 +26,44 @@ titel {
     z-index: 100
 
 }
+
+
+
+@media (max-width: 22.8125rem) {
+    .header {
+        height: 4.3125rem
+    }
+}
+
+
+.header .header_content {
+    display: flex;
+    height: 5.4375rem;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (max-width: 22.8125rem) {
+    .header .header_content {
+        height: 4.3125rem
+    }
+}
+
+.header .header_logo {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin-top: 0
+}
+
+@media (min-width: 62rem) {
+    .header .header_logo {
+        margin-top: 0.625rem;
+        transition: margin-top 0.4s cubic-bezier(0.175,0.885,0.32,1.275)
+    }
+}
+
+
 
 .breadcrumb {
     display: block;
