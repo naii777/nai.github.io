@@ -2431,11 +2431,6 @@ img {
     border-style: none;
 }
 
-img {
-    width: 260px;
-    aspect-ratio: auto 260/74;
-    height: 74px;
-}
 
 img {
     overflow-clip-margin: content-box;
