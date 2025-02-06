@@ -763,7 +763,7 @@ img {
     flex-direction: column;
 }
 
-.grid .grid_column.grid__column--xs-1 {
+.grid .grid__column.grid__column--xs-1 {
     flex-basis: 8.3333333333%;
     width: 8.3333333333%;
     max-width: 8.3333333333%;
