@@ -2564,6 +2564,10 @@ img {
     padding-top: 2.5rem;
 }
 
+.main>*:first-child:not(.picturestage):not(.breadcrumb-wrap) {
+    padding-top: 2.5rem
+}
+
 .main .mobile-headline {
     display: block;
     margin-bottom: 1.25rem;
