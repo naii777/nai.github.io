@@ -2434,6 +2434,11 @@ ol li {
     margin-bottom: 0.9375rem
 }
 
+img {
+    vertical-align: middle;
+    border-style: none
+}
+
 .text-left {
     text-align: left
 }
