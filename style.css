@@ -61,7 +61,7 @@ html:not(.ie11) .main {
     }
 }
 
-.header .header__content {
+.header .header_content {
     display: flex;
     height: 5.4375rem;
     max-width: 120rem;
@@ -70,48 +70,48 @@ html:not(.ie11) .main {
 }
 
 @media (max-width: 61.99875rem) {
-    .header .header__content {
+    .header .header_content {
         flex-direction:column;
     }
 }
 
 @media (max-width: 22.8125rem) {
-    .header .header__content {
+    .header .header_content {
         height:4.3125rem;
     }
 }
 
-.header .header__logo {
+.header .header_logo {
     display: inline-block;
     flex: 0 0 auto;
     margin-top: 0;
 }
 
 @media (min-width: 62rem) {
-    .header .header__logo {
+    .header .header_logo {
         margin-top:0.625rem;
         transition: margin-top 0.4s cubic-bezier(0.175,0.885,0.32,1.275)
     }
 }
 
-.header .header__navigation {
+.header .header_navigation {
     flex: 1 1 auto;
 }
 
 @media (min-width: 62rem) {
-    .header .header__navigation {
+    .header .header_navigation {
         margin-left:1.875rem;
     }
 }
 
 @media (min-width: 100rem) {
-    .header .header__navigation {
+    .header .header_navigation {
         margin-left:5.625rem,
     }
 }
 
 @media (max-width: 61.99875rem) {
-    .header .header__navigation {
+    .header .header_navigation {
         margin-top:-25px;
     }
 }
@@ -2515,7 +2515,7 @@ ol li {
     }
 }
 
-.header .header__content {
+.header .header_content {
     display: flex;
     height: 5.4375rem;
     max-width: 120rem;
@@ -2524,48 +2524,48 @@ ol li {
 }
 
 @media (max-width: 61.99875rem) {
-    .header .header__content {
+    .header .header_content {
         flex-direction:column;
     }
 }
 
 @media (max-width: 22.8125rem) {
-    .header .header__content {
+    .header .header_content {
         height:4.3125rem;
     }
 }
 
-.header .header__logo {
+.header .header_logo {
     display: inline-block;
     flex: 0 0 auto;
     margin-top: 0;
 }
 
 @media (min-width: 62rem) {
-    .header .header__logo {
+    .header .header_logo {
         margin-top:0.625rem;
         transition: margin-top 0.4s cubic-bezier(0.175,0.885,0.32,1.275)
     }
 }
 
-.header .header__navigation {
+.header .header_navigation {
     flex: 1 1 auto;
 }
 
 @media (min-width: 62rem) {
-    .header .header__navigation {
+    .header .header_navigation {
         margin-left:1.875rem;
     }
 }
 
 @media (min-width: 100rem) {
-    .header .header__navigation {
+    .header .header_navigation {
         margin-left:5.625rem,
     }
 }
 
 @media (max-width: 61.99875rem) {
-    .header .header__navigation {
+    .header .header_navigation {
         margin-top:-25px;
     }
 }
