@@ -71,7 +71,7 @@ html:not(.ie11) .main {
 
 @media (max-width: 61.99875rem) {
     .header .header_content {
-        flex-direction:column;
+        flex-direction:column
     }
 }
 
