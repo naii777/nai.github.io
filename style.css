@@ -23,13 +23,6 @@ html:not(.ie11) .main {
 }
 
 
-body {
-    margin: 0;
-    text-align: left;
-    background-color: white;
-}
-
-
 
 .main-nav {
     display: none;
@@ -2684,6 +2677,13 @@ h4,.h4 {
     h4,.h4 {
         font-size:1.125rem
     }
+}
+
+
+body {
+    margin: 0;
+    text-align: left;
+    background-color: white;
 }
 
 p {
