@@ -46,13 +46,31 @@
         {"@context": "https://schema.org","@type": "BreadcrumbList","itemListElement":[{"@type": "ListItem","position": 1,"item":{"@id": "https://www.tu-braunschweig.de/","name": "Technische Universität Braunschweig"}},{"@type": "ListItem","position": 2,"item":{"@id": "https://www.tu-braunschweig.de/struktur","name": "Struktur"}},{"@type": "ListItem","position": 3,"item":{"@id": "https://www.tu-braunschweig.de/struktur","name": "Einrichtungen"}},{"@type": "ListItem","position": 4,"item":{"@id": "https://www.tu-braunschweig.de/it","name": "Gauß-IT-Zentrum"}}]}
     }
  </script>
- <div class="grid">
-    ::before
- <div class="grid_column grid_column--xxl-2 grid_column--x1-3 grid_column--1g-4 right-column"></div>
+
+
+ <div class="grid"> 
+ <div class="grid_column grid_column--xxl-2 grid_column--x1-3 grid_column--1g-4 right-column">
+   <div class="h1 mobile-headline">Gauß-IT-Zentrum</div>
+ </div>
+
+ <ul id="js-sub-nav" class="sub-nav no-index" data-accordion-group>
+    <li class="sub-nav_item" data-dropdown="true" data-accordion>
+        <span class="sub-nav_headline" data-control>Gauß-IT-Zentrum</span>
+        <ul class="sub-nav sub-nav--subpages" data-content style="max-height: 0px; overflow:hidden;">
+        <li class="sub-nav_item">Access Points</li>   
+        <li class="sub-nav_item">Speedtest</li>
+    </li>
+        </ul>
+ </ul>
+ </div>
+
+
+
+ 
  <div class="grid_column grid_column--xxl-8 grid_column--x1-8 grid_column--1g-8 grid_column--1g-order-first"></div>
  <div class="grid main_headline-wrap"></div>
  <div class="grid_column grid_column--xx1-9 grid_column--xxl-offset-3 grid_column--xxl-11 grid_column-xl-offset-1"></div>
-    ::after
+    
 </div>
 </div>
  <h1>Gauß-IT-Zentrum</h1>
