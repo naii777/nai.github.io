@@ -2305,7 +2305,6 @@ body {
 }
 
 
-
 @media (max-width: 22.8125rem) {
     .header {
         height: 4.3125rem;
@@ -2382,6 +2381,8 @@ ol li {
 .text-right {
     text-align: right
 }
+
+
 
 .logo img {
     display: block;
