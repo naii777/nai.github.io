@@ -2435,12 +2435,12 @@ ol li {
     height: 5.4375rem;
     background-color: #ffffff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
-    z-index: 100
+    z-index: 100;
 }
 
 @media (max-width: 22.8125rem) {
     .header {
-        height:4.3125rem
+        height:4.3125rem;
     }
 }
 
@@ -2449,26 +2449,25 @@ ol li {
     height: 5.4375rem;
     max-width: 120rem;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 @media (max-width: 61.99875rem) {
     .header .header__content {
-        flex-direction:column
+        flex-direction:column;
     }
 }
 
 @media (max-width: 22.8125rem) {
     .header .header__content {
-        height:4.3125rem
+        height:4.3125rem;
     }
 }
-
 
 .header .header__logo {
     display: inline-block;
     flex: 0 0 auto;
-    margin-top: 0
+    margin-top: 0;
 }
 
 @media (min-width: 62rem) {
@@ -2479,24 +2478,24 @@ ol li {
 }
 
 .header .header__navigation {
-    flex: 1 1 auto
+    flex: 1 1 auto;
 }
 
 @media (min-width: 62rem) {
     .header .header__navigation {
-        margin-left:1.875rem
+        margin-left:1.875rem;
     }
 }
 
 @media (min-width: 100rem) {
     .header .header__navigation {
-        margin-left:5.625rem
+        margin-left:5.625rem,
     }
 }
 
 @media (max-width: 61.99875rem) {
     .header .header__navigation {
-        margin-top:-25px
+        margin-top:-25px;
     }
 }
 
