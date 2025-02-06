@@ -733,13 +733,6 @@ img {
     }
 }
 
-
-
-.grid {
-    max-width: 100%;
-    height: auto;
-}
-
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -756,7 +749,7 @@ img {
     clear: both;
 }
 
-.grid .grid_column {
+.grid .grid__column {
     flex: 1 1 auto;
     padding-right: 1.25rem;
     padding-left: 1.25rem;
@@ -770,7 +763,7 @@ img {
     flex-direction: column;
 }
 
-.grid .grid_column.grid_column--xs-1 {
+.grid .grid_column.grid__column--xs-1 {
     flex-basis: 8.3333333333%;
     width: 8.3333333333%;
     max-width: 8.3333333333%;
