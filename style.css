@@ -2575,18 +2575,18 @@ img {
     }
 }
 
-.main.default .main_headline-wrap,.main.default-nosubnav .main_headline.wrap {
+.main.default .main_headline-wrap, .main.default-nosubnav .main_headline.wrap {
     position: relative;
     display: none;
 }
 
 @media (min-width: 62rem) {
-    .maindefault .main_headline-wrap,.main.default-nosubnav .main_headline-wrap {
+    .maindefault .main_headline-wrap, .main.default-nosubnav .main_headline-wrap {
         display: flex;
     }
 
 
- .main.default .main_headline-wrap::after,.main.default-nosubnav .main_headline-wrap::after {
+ .main.default .main_headline-wrap::after, .main.default-nosubnav .main_headline-wrap::after {
     content: "  ";
     display: block;
     width: 100%;
@@ -2597,7 +2597,7 @@ img {
 
 
 
- .main.default .main_headline-wrap h1,.main.default .main_headline-wrap h2,.main.default .main_headline.wrap h3,.main.default .main_headline-wrap .search-list-item .search-list-item_title,.search-list-item .main.default .main_headline-wrap .search-list-item_title,.main.default .main_headline-wrap h4,.main.default .main_headline-wrap h5,.main.default .main_headline-wrap h6,.main.default-nosubnav .main_headline-wrap h1,.main.default-nosubnav .main_headline-wrap h2,.main.default-nosubnav .main_headline-wrap h3,.main.default-nosubnav .main_headline-wrap .search-list-item .search-list-item_title,.search-list-item .main.default-nosubnav .main_headline-wrap.search-list-item_title,.main.default-nosubnav .main_headline-wrap h4,.main.default-nosubnav .main_headline-wrap h5, .main.default-nosubnav .main_headline-wrap h6 {
+ .main.default .main_headline-wrap h1, .main.default .main_headline-wrap h2, .main.default .main_headline.wrap h3, .main.default .main_headline-wrap .search-list-item .search-list-item_title, .search-list-item .main.default .main_headline-wrap .search-list-item_title, .main.default .main_headline-wrap h4, .main.default .main_headline-wrap h5, .main.default .main_headline-wrap h6, .main.default-nosubnav .main_headline-wrap h1, .main.default-nosubnav .main_headline-wrap h2, .main.default-nosubnav .main_headline-wrap h3, .main.default-nosubnav .main_headline-wrap .search-list-item .search-list-item_title, .search-list-item .main.default-nosubnav .main_headline-wrap.search-list-item_title, .main.default-nosubnav .main_headline-wrap h4, .main.default-nosubnav .main_headline-wrap h5, .main.default-nosubnav .main_headline-wrap h6 {
     position: relative;
  }
 }
