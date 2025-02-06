@@ -2529,7 +2529,7 @@ img {
     }
 }
 
-.main .light-greey-are .breadcrumb-wrap.grid,.main .light-grey-area__content>.grid,.main>.grid {
+.main .light-grey-area .breadcrumb-wrap.grid, .main .light-grey-area__content>.grid, .main>.grid {
     margin-left: 0;
     margin-right: 0;
 }
