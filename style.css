@@ -22,6 +22,28 @@ html:not(.ie11) .main {
     flex-grow: 1
 }
 
+.logo img {
+    display: block;
+}
+
+
+.logo {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 61.99875rem) {
+    .logo {
+        max-width: 14.625rem;
+    }
+}
+
+@media (max-width: 22.8125rem) {
+    .logo {
+        max-width: 11.5625rem;
+    }
+}
 
 
 .main-nav {
@@ -1469,6 +1491,7 @@ html:not(.ie11) .main {
         order: 12 !important
     }
 }
+}
 
 @media (min-width: 62rem) {
     .grid .grid__column.grid__column--lg-1 {
@@ -2346,31 +2369,6 @@ ol li {
 
 .text-right {
     text-align: right
-}
-
-
-
-.logo img {
-    display: block;
-}
-
-
-.logo {
-    display: inline-block;
-    position: relative;
-    z-index: 10;
-}
-
-@media (max-width: 61.99875rem) {
-    .logo {
-        max-width: 14.625rem;
-    }
-}
-
-@media (max-width: 22.8125rem) {
-    .logo {
-        max-width: 11.5625rem;
-    }
 }
 
 
