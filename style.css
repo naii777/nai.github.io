@@ -22,9 +22,7 @@ html:not(.ie11) .main {
     flex-grow: 1
 }
 
-.logo img {
-    display: block;
-}
+
 
 
 .logo {
@@ -43,6 +41,10 @@ html:not(.ie11) .main {
     .logo {
         max-width: 11.5625rem;
     }
+}
+
+.logo img {
+    display: block;
 }
 
 .header {
