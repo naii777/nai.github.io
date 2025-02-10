@@ -2640,12 +2640,6 @@ nav {
     display: block;
 }
 
-p {
-    
-
-
-
-}
 
 h1,.h1 {
     font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
@@ -2675,7 +2669,7 @@ h2,.h2 {
     font-family: "Open Sans" , Arial, Helvetica, sans-serif;
     font-size: 1.375rem;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 3.4;
     letter-spacing: 0;
     color: #003F57;
     margin-top: 0;
@@ -2728,6 +2722,18 @@ h4,.h4 {
 }
 
 
+.image__caption {
+    font-size: 0.875rem;
+    background-color: rgba(0,63,87,0.8);
+    color: #ffffff;
+    padding: 0.225rem;
+    line-height: 1.5;
+    margin-top: 0.0625rem;
+    hyphens: auto;
+    word-break: break-word;
+    width: 38.75rem;
+}
+
 body {
     margin: 0;
     text-align: left;
@@ -2735,10 +2741,14 @@ body {
 }
 
 p {
-    font-size: inherit;
+    font-size: 0.875rem;
     font-weight: 400;
+    text-align: left;
+    line-height: 1.3;
+
     margin-bottom: 1.25rem;
     color: black
+    
 }
 
 
