@@ -2619,51 +2619,56 @@ img {
 }
 
 .frame {
+    
+}
+
+.frame .frame--highlightbox {
+    margin-top: 2.5re;
 }
 
 .frame:before,.frame:after {
     content: " ";
-    display: block
+    display: block;
 }
 
 .frame:after {
-    clear: both
+    clear: both;
 }
 
 .frame.frame--small-margin-top {
-    margin-top: 2.5rem
+    margin-top: 2.5rem;
 }
 
 .frame.frame--medium-margin-top {
-    margin-top: 3.75rem
+    margin-top: 3.75rem;
 }
 
 .frame.frame--large-margin-top {
-    margin-top: 5rem
+    margin-top: 5rem;
 }
 
 .frame.frame--small-margin-bottom {
-    margin-bottom: 2.5rem
+    margin-bottom: 2.5rem;
 }
 
 .frame.frame--medium-margin-bottom {
-    margin-bottom: 3.75rem
+    margin-bottom: 3.75rem;
 }
 
 .frame.frame--large-margin-bottom {
-    margin-bottom: 5rem
+    margin-bottom: 5rem;
 }
 
 .frame.frame--type-textpic {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .frame.frame--type-textpic .image.image--float-left~ol,.frame.frame--type-textpic .image.image--float-left~ul {
-    display: table
+    display: table;
 }
 
 .frame.frame--type-image {
-    overflow: hidden
+    overflow: hidden;
 }
 
 .frame>p:last-child {
@@ -3018,7 +3023,7 @@ p {
     }
 
     .accordion--open .sub-nav__headline:before {
-        transform: rotate(180deg)
+        transform: rotate(180deg);
     }
 }
 
@@ -3035,6 +3040,7 @@ p {
     background-color: #00709B;
     color: #ffffff;
 }
+
 .highlight.highlightbox--blue * {
     color: #ffffff;
 }
