@@ -3348,13 +3348,52 @@ body {
 
 p {
     font-size: 0.94rem;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
-    line-height: 1.3;
+    line-height: 1.6;
     margin-top: 1.25;
     color: black;
 }
 
+.two {
+    font-size: 0.94rem;
+    font-weight: 500;
+    width: rem;
+    text-align: left;
+    line-height: 1.6;
+    margin-right: auto;
+    display: flex;
+    color: black;
+}
+
+.three {
+    font-size: 0.94rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.6;
+    margin-right: auto;
+    margin-left: 1rem;
+    color: black;;
+}
+
+.four {
+    font-size: 0.94rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.6;
+    margin-left: -19rem;
+    display: flex;
+    color: black;
+}
+
+.five {
+    font-size: 0.94rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.6;
+    margin-left: 1rem;
+    color: black;
+}
 
 
 .to-top-button {
@@ -3581,8 +3620,8 @@ p {
 .highlightbox {
     position: relative;
     display: block;
-    width: 51.5%;
-    padding: 1.875rem;
+    width: 69.5%;
+    padding: 1.79rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -3595,6 +3634,62 @@ p {
 .highlightbox.highlightbox--blue * {
     color: #ffffff;
 }
+
+
+.highlightbox.highlightbox--red {
+    background-color: #711c2f;
+    border: 0.9rem solid #711c2f;
+    width: 19rem;
+    text-align: center;
+    align-items: start;
+    
+}
+
+.highlightbox.highlightbox--red * {
+    color: #ffffff;
+}
+
+.highlightbox.highlightbox--green {
+    background-color: #00534a;
+    border: 0.125rem solid #00534a;
+    width: 19rem;
+    text-align: center;
+
+}
+
+.highlightbox.highlightbox--green *{
+    color: #ffffff;
+}
+
+.highlightbox.highlightbox--violet {
+    background-color: #75406a;
+    border: 1.7rem solid #75406a;
+    width: 19rem;
+    margin-left: -1rem;
+    text-align: center;
+    
+}
+
+.highlightbox.highlightbox--violet *{
+    color: #ffffff;
+}
+
+
+.highlightbox.highlightbox--darkblue {
+    background-color: #003f57 ;
+    border: 0.2rem solid #003f57;
+    width: 19rem;
+    text-align: center;
+    
+}
+
+.highlightbox.highlightbox--darkblue *{
+    color: #ffffff;
+}
+
+
+
+
 
 .highlightbox .highlightbox__title a  {
     text-decoration: none;
@@ -3628,6 +3723,30 @@ p {
     transition: transfrom 0.3s cubic-bezier(0.19,1,0.22,1);
 }
 
+
+.ce-div {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 0 none;
+    
+}
+
+.hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
 
 .socialbar {
     display: block;
@@ -3727,4 +3846,3 @@ p {
 }
 
 
-a
