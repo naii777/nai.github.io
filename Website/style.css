@@ -3205,8 +3205,9 @@ img {
 }
 
 .frame.frame--medium-margin-bottom {
-    margin-bottom: 3.75rem;
+    margin-bottom: 2.75rem;
 }
+
 
 .frame.frame--large-margin-bottom {
     margin-bottom: 5rem;
@@ -3355,43 +3356,45 @@ p {
     color: black;
 }
 
+
 .two {
     font-size: 0.94rem;
     font-weight: 500;
-    width: rem;
-    text-align: left;
+    text-align: center;
     line-height: 1.6;
-    margin-right: auto;
-    display: flex;
+    display: inline-block;
     color: black;
 }
 
 .three {
     font-size: 0.94rem;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     line-height: 1.6;
-    margin-right: auto;
     margin-left: 1rem;
-    color: black;;
+    margin-right: 15.65rem;
+    padding-top: auto;
+    color: black;
 }
 
 .four {
     font-size: 0.94rem;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     line-height: 1.6;
-    margin-left: -19rem;
-    display: flex;
+    display: inline-block;
     color: black;
 }
 
 .five {
     font-size: 0.94rem;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
     line-height: 1.6;
-    margin-left: 1rem;
+    margin-left: 21rem;
+    margin-top: -16.4rem;
+    margin-right: 15.6rem;
+    padding-top: auto;
     color: black;
 }
 
@@ -3617,13 +3620,91 @@ p {
     }
 }
 
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #711c2f;
+  }
+
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00534a;
+  }
+  
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #75406a;
+  }
+  
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #003f57;
+  }
+  
+  
+.two:hover .overlay1 {
+    opacity: 1;
+}
+
+.three:hover .overlay2 {
+    opacity:1;
+}
+
+.four:hover .overlay3 {
+    opacity:1;
+}
+
+.five:hover .overlay4 {
+    opacity:1;
+}
+
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
 .highlightbox {
     position: relative;
     display: block;
-    width: 69.5%;
+    width: 70%;
     padding: 1.79rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: 0.5s ease;
 }
 
 .highlightbox.highlightbox--blue {
@@ -3642,7 +3723,6 @@ p {
     width: 19rem;
     text-align: center;
     align-items: start;
-    
 }
 
 .highlightbox.highlightbox--red * {
@@ -3650,11 +3730,14 @@ p {
 }
 
 .highlightbox.highlightbox--green {
+    position: relative;
+    margin-left: 20rem;
+    margin-top: -11.7rem;
     background-color: #00534a;
-    border: 0.125rem solid #00534a;
+    border: 0.12rem solid #00534a;
     width: 19rem;
     text-align: center;
-
+    align-items: start; 
 }
 
 .highlightbox.highlightbox--green *{
@@ -3662,10 +3745,11 @@ p {
 }
 
 .highlightbox.highlightbox--violet {
+    position: relative;
     background-color: #75406a;
     border: 1.7rem solid #75406a;
     width: 19rem;
-    margin-left: -1rem;
+    margin-top:;
     text-align: center;
     
 }
@@ -3675,7 +3759,8 @@ p {
 }
 
 
-.highlightbox.highlightbox--darkblue {
+.highlightbox--darkblue {
+    position: relative;
     background-color: #003f57 ;
     border: 0.2rem solid #003f57;
     width: 19rem;
@@ -3686,7 +3771,6 @@ p {
 .highlightbox.highlightbox--darkblue *{
     color: #ffffff;
 }
-
 
 
 
