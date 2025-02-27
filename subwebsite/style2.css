@@ -90,10 +90,21 @@ h3,.h3 {
     
 }
 
-p {
-    margin-left: 20rem;
+h4,.h4 {
+    font-family: "Open Sans" , Arial, Helvetica, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 1.4;
+    text-align: left;
+    margin-left: 16rem;
+    color: #003F57;
 
-    
+
+}
+
+p.a {
+    margin-left: 20rem;   
 }
 
 
@@ -116,7 +127,45 @@ img.a {
  
 }
 
+img.b {
+    float: left;
 
+}
+.imgontop {
+    float: left;
+    position: relative;
+    width: 20%;
+    margin-left: 18.5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 20px;
+ 
+  }
+
+  .imgontop2 {
+    float: left;
+    position: relative;
+    width: 20%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 20px;
+ 
+  }
+
+  .imgontop3 {
+    float: left;
+    position: relative;
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 20px;
+ 
+  }
 
 .imgcontainer {
     float: left;
@@ -131,9 +180,17 @@ img.a {
   }
   
   .clearfix {
-    content: "";
+    float: left;
+    content: " ";
     clear: both;
-    display: table;
+    display: inline;
+  }
+
+  .clearfixontop {
+    float: left;
+    content: " ";
+    clear: both;
+    display: inline;
   }
 
 
@@ -1001,6 +1058,14 @@ img.a {
     margin-right: -1.25rem;
     margin-left: -1.25rem;
 }
+
+.gridontop {
+    float: left;
+    display: flex;
+    flex-wrap: wrap; 
+    display: block;
+}
+
 
 .grid:before,.grid:after {
     content: "  ";
@@ -3311,7 +3376,7 @@ img {
 }
 
 .frame.frame--medium-margin-bottom {
-    margin-bottom: 2.75rem;
+    margin-bottom: 4.75rem;
 }
 
 

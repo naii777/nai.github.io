@@ -3180,7 +3180,6 @@ img {
 }
 
 .frame {
-
 }
 
 .frame .frame--highlightbox {
@@ -3363,6 +3362,12 @@ p {
     line-height: 1.6;
     margin-top: 1.25;
     color: black;
+}
+
+p.middle {
+text-align: center;
+margin-top: 4.2rem;
+
 }
 
 
