@@ -3179,8 +3179,6 @@ img {
     margin-bottom: 2.5rem;
 }
 
-.frame {
-}
 
 .frame .frame--highlightbox {
     margin-top: 2.5rem;
@@ -3332,7 +3330,7 @@ h4,.h4 {
 
 @media (min-width: 48rem) {
     h4,.h4 {
-        font-size:1.125rem
+        font-size: 1.125rem
     }
 }
 
@@ -3466,7 +3464,7 @@ margin-top: 4.2rem;
         list-style:none;
         padding: 0;
         margin: 0 0 1.875rem 0;
-        width: 100%
+        width: 100%;
     }
 
     .sub-nav.sub-nav--subpages {
