@@ -69,12 +69,12 @@ h2,.h2 {
     margin-bottom: 2.5rem;
 }
 
-h2,.h2,.teaser__header,.teaserbox_extra__header,.tile-submenu__item>a {
+h2,.h2,.teaser__header,.teaser__header2,.teaser__header3,.teaserbox_extra__header,.tile-submenu__item>a {
     font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
 }
 
 @media (min-width: 48rem) {
-    h2,.h2,.teaser__header,.teaserbox_extra__header,.tile-submenu__item>a {
+    h2,.h2,.teaser__header,.teaser__header2,.teaser__header3,.teaserbox_extra__header,.tile-submenu__item>a {
         font-size: 1.35rem;
     }
 }
@@ -3875,9 +3875,16 @@ p{
     background-size: 103%
 }
 
+.teaser>a:hover .teaser__image {
+    background-size: 103%
+}
 
 
 .teaser--darkblue .teaser__image::after {
+    border-color: #003f57
+}
+
+.teaser--darkblue .teaser__image2::after {
     border-color: #003f57
 }
 
@@ -3897,7 +3904,7 @@ p{
     border-color: #00534A
 }
 
-.teaser--light-violet .teaser__image::after {
+.teaser--light-violet .teaser__image0::after {
     border-color: #75406a
 }
 
@@ -3914,6 +3921,10 @@ p{
 }
 
 .teaser--red .teaser__image::after {
+    border-color: #712c2f
+}
+
+.teaser--red .teaser__image0::after {
     border-color: #712c2f
 }
 
@@ -3935,12 +3946,35 @@ p{
     display: block;
     width: 23rem;
     margin-left: -2rem;
-    padding-bottom: 100%;
+    padding-bottom: 111%;
     background-size: 100%;
     background-position: center center;
     order: 0;
     transition: background-size 0.6s cubic-bezier(0.19,1,0.22,1);
 }
+
+.teaser__image0 {
+    position: relative;
+    display: block;
+    width: 23rem;
+    margin-left: -3rem;
+    padding-bottom: 111%;
+    background-size: 91%;
+    background-position: center center;
+    order: 0;
+    transition: background-size 0.6s cubic-bezier(0.19,1,0.22,1);
+}
+
+.teaser__image2 {
+    position: relative;
+    display: block;
+    width: 23rem;
+    margin-left: -1rem;
+    padding-bottom: 111%;
+    background-size: 140%;
+    background-position: center center;
+}
+
 
 .teaser__image::after {
     position: absolute;
@@ -3955,10 +3989,75 @@ p{
     border-right: 20px solid transparent !important
 }
 
+.teaser__image0::after {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) rotate(0deg);
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent !important;
+    border-right: 20px solid transparent !important
+}
 
+.teaser__image2::after {
+    position: absolute;
+    content: " ";
+    width: 0;
+    height: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) rotate(0deg);
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent !important;
+    border-right: 20px solid transparent !important
+}
 
 @media (max-width: 42.375rem) {
     .teaser__image {
+        display:none
+
+    }
+}
+
+.teaser__content-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 auto;
+    padding-bottom: 38.8%;
+    overflow: hidden;
+}
+
+.teaser__content-wrapper::after,.teaser__content-wrapper::before {
+    content: " ";
+    position: absolute;
+    z-index: 1
+}
+
+.teaser__content-inner {
+    position: absolute;
+    top: 1.875rem;
+    left: 1.875rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+}
+
+@media (max-width: 44.375rem) {
+    .teaser__content-inner {
+        position:relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0
+    }
+}
+
+@media (max-width: 42.375rem) {
+    .teaser__image0 {
         display:none
 
     }
@@ -4002,12 +4101,42 @@ p{
     text-decoration: none
 }
 
+@media (max-width: 44.375rem) {
+    .teaser__content-inner {
+        position:relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0
+    }
+}
+
+.teaser,.teaser:hover,.teaser:hover:hover,.teaser__header2,.teaser__header2:hover,.teaser__text,.teaser__text:hover {
+    text-decoration: none
+}
+
+@media (max-width: 44.375rem) {
+    .teaser__content-inner {
+        position:relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0
+    }
+}
+
+.teaser,.teaser:hover,.teaser:hover:hover,.teaser__header3,.teaser__header3:hover,.teaser__text,.teaser__text:hover {
+    text-decoration: none
+}
+
 .teaser__header {
     display: block;
     flex: 0 0 auto;
     text-decoration: none;
-    margin-left: 5.5rem;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
     margin-bottom: 1rem;
+    margin-top: rem;
 }
 
 @media (min-width: 44.4375rem) {
@@ -4020,6 +4149,55 @@ p{
 
 @media (max-width: 44.375rem) {
     .teaser__header {
+        font-size:1.5rem
+    }
+}
+
+.teaser__header2 {
+    display: block;
+    flex: 0 0 auto;
+    text-decoration: none;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    margin-top: -1.5em;
+}
+
+@media (min-width: 44.4375rem) {
+    .teaser__header2 {
+        min-height:4.5625rem;
+        display: flex;
+        align-items: flex-end
+    }
+}
+
+@media (max-width: 44.375rem) {
+    .teaser__header2 {
+        font-size:1.5rem
+    }
+}
+
+
+.teaser__header3 {
+    display: block;
+    flex: 0 0 auto;
+    text-decoration: none;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    margin-top: -2.5rem;
+}
+
+@media (min-width: 44.4375rem) {
+    .teaser__header3 {
+        min-height:4.5625rem;
+        display: flex;
+        align-items: flex-end
+    }
+}
+
+@media (max-width: 44.375rem) {
+    .teaser__header3 {
         font-size:1.5rem
     }
 }
@@ -4068,11 +4246,11 @@ div[data-teaser-row="5"] .teaser-container .teaser {
 }
 
 @media (min-width: 100.0625rem) {
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 3) .teaser__image,div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 1) .teaser__image {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 3) .teaser__image .teaser__image0,div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 1) .teaser__image .teaser__image0 {
         order:2
     }
 
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 3) .teaser__image::after,div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 1) .teaser__image::after {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 3) .teaser__image::after .teaser__image0::after,div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 1) .teaser__image::after, .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4081,11 +4259,11 @@ div[data-teaser-row="5"] .teaser-container .teaser {
 }
 
 @media (min-width: 75.0625rem) and (max-width:100rem) {
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image::after {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4094,11 +4272,11 @@ div[data-teaser-row="5"] .teaser-container .teaser {
 }
 
 @media (min-width: 64rem) and (max-width:75rem) {
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image .teaser__image0 {
         order:2
     }
 
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image::after {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4107,17 +4285,71 @@ div[data-teaser-row="5"] .teaser-container .teaser {
 }
 
 @media (min-width: 44.4375rem) and (max-width:63.9375rem) {
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image::after {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
         transform: translateX(-50%) rotate(180deg)
     }
 }
+
+
+@media (min-width: 100.0625rem) {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 3) .teaser__image0 .teaser__image0,div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 1) .teaser__image0 .teaser__image0{
+        order:2
+    }
+
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 3) .teaser__image0::after .teaser__image0::after,div[data-teaser-row="5"] .teaser-container .teaser:nth-child(5n - 1) .teaser__image0::after .teaser__image0{
+        bottom: inherit;
+        bottom: initial;
+        top: 0;
+        transform: translateX(-50%) rotate(180deg)
+    }
+}
+
+@media (min-width: 75.0625rem) and (max-width:100rem) {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image0 .teaser__image0{
+        order:2
+    }
+
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image0::after .teaser__image0::after {
+        bottom: inherit;
+        bottom: initial;
+        top: 0;
+        transform: translateX(-50%) rotate(180deg)
+    }
+}
+
+@media (min-width: 64rem) and (max-width:75rem) {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image0 .teaser__image0{
+        order:2
+    }
+
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image0::after .teaser__image0::after {
+        bottom: inherit;
+        bottom: initial;
+        top: 0;
+        transform: translateX(-50%) rotate(180deg)
+    }
+}
+
+@media (min-width: 44.4375rem) and (max-width:63.9375rem) {
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image0 .teaser__image0{
+        order:2
+    }
+
+    div[data-teaser-row="5"] .teaser-container .teaser:nth-child(even) .teaser__image0::after .teaser__image0::after    {
+        bottom: inherit;
+        bottom: initial;
+        top: 0;
+        transform: translateX(-50%) rotate(180deg)
+    }
+}
+
 
 div[data-teaser-row="4"] .teaser-container .teaser {
     width: 25%;
@@ -4150,11 +4382,11 @@ div[data-teaser-row="4"] .teaser-container .teaser {
 }
 
 @media (min-width: 100.0625rem) {
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n - 2) .teaser__image,div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n) .teaser__image {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n - 2) .teaser__image .teaser__image0,div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n - 2) .teaser__image::after,div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n) .teaser__image::after {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n - 2) .teaser__image::after .teaser__image0::after,div[data-teaser-row="4"] .teaser-container .teaser:nth-child(4n) .teaser__image::after .teaser__image0{
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4163,11 +4395,11 @@ div[data-teaser-row="4"] .teaser-container .teaser {
 }
 
 @media (min-width: 75.0625rem) and (max-width:100rem) {
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image::after {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4176,11 +4408,11 @@ div[data-teaser-row="4"] .teaser-container .teaser {
 }
 
 @media (min-width: 64rem) and (max-width:75rem) {
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image::after {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image::after .teaser__image0::after{
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4189,11 +4421,11 @@ div[data-teaser-row="4"] .teaser-container .teaser {
 }
 
 @media (min-width: 44.4375rem) and (max-width:63.9375rem) {
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image::after {
+    div[data-teaser-row="4"] .teaser-container .teaser:nth-child(even) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4224,7 +4456,7 @@ div[data-teaser-row="3"] .teaser-container .teaser {
 }
 
 @media (min-width: 81.3125rem) {
-    div[data-teaser-row="3"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image {
+    div[data-teaser-row="3"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image{
         order:2
     }
 
@@ -4237,11 +4469,11 @@ div[data-teaser-row="3"] .teaser-container .teaser {
 }
 
 @media (min-width: 44.4375rem) and (max-width:81.25rem) {
-    div[data-teaser-row="3"] .teaser-container .teaser:nth-child(even) .teaser__image {
+    div[data-teaser-row="3"] .teaser-container .teaser:nth-child(even) .teaser__image .teaser__image0 {
         order:2
     }
 
-    div[data-teaser-row="3"] .teaser-container .teaser:nth-child(even) .teaser__image::after {
+    div[data-teaser-row="3"] .teaser-container .teaser:nth-child(even) .teaser__image::after .teaser__image0::after{
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4280,11 +4512,11 @@ div[data-teaser-row="2"] .teaser-container .teaser {
 }
 
 @media (min-width: 81.3125rem) {
-    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n - 2) .teaser__image,div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n) .teaser__image {
+    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n - 2) .teaser__image .teaser__image0,div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n - 2) .teaser__image::after,div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n) .teaser__image::after {
+    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n - 2) .teaser__image::after .teaser__image0::after,div[data-teaser-row="2"] .teaser-container .teaser:nth-child(2n) .teaser__image::after .teaser__image0{
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4293,11 +4525,11 @@ div[data-teaser-row="2"] .teaser-container .teaser {
 }
 
 @media (min-width: 44.4375rem) and (max-width:81.25rem) {
-    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(even) .teaser__image {
+    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(even) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(even) .teaser__image::after {
+    div[data-teaser-row="2"] .teaser-container .teaser:nth-child(even) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4328,11 +4560,11 @@ div[data-teaser-row="1"] .teaser-container .teaser {
 }
 
 @media (min-width: 64rem) and (max-width:74.9375rem) {
-    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image {
+    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image::after {
+    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(3n - 1) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
@@ -4341,11 +4573,11 @@ div[data-teaser-row="1"] .teaser-container .teaser {
 }
 
 @media (min-width: 44.4375rem) and (max-width:64rem) {
-    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(even) .teaser__image {
+    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(even) .teaser__image .teaser__image0{
         order:2
     }
 
-    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(even) .teaser__image::after {
+    div[data-teaser-row="1"] .teaser-container .teaser:nth-child(even) .teaser__image::after .teaser__image0::after {
         bottom: inherit;
         bottom: initial;
         top: 0;
